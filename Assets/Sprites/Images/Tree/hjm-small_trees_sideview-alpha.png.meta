@@ -1,0 +1,1159 @@
+fileFormatVersion: 2
+guid: 3c69c9234f633b44dbcd2c8820a3665c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_0
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1063
+        width: 198
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bd61ad8a490ad449eb02e7da22fddd
+      internalID: 1989711622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_1
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1103
+        width: 160
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b1ab38e6e963a4ca823d3cbe0a0116
+      internalID: -1300996874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_2
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1107
+        width: 159
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3636fb28a81a94da7f5db1f3b1ad6a
+      internalID: -840043386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1108
+        width: 178
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aa4a44eee218647a825f6ddb950178
+      internalID: -995317971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_4
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 1153
+        width: 85
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65efd44a50d28c04db970a3fc85dae3e
+      internalID: -912383818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_5
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1062
+        width: 227
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae5a7195f4af04b96a1f93c4b189fe
+      internalID: -1799298561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1196
+        width: 182
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a0af7a77f59eb4e962749517b037ca
+      internalID: -605821570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_10
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 1108
+        width: 179
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69a3b29cf9c56740a29f1c8632dcae9
+      internalID: 1268394333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_11
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1093
+        width: 157
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd28f50e80d3344aa963f5f41a7bede
+      internalID: 873005889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_12
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1075
+        width: 108
+        height: 211
+      alignment: 9
+      pivot: {x: 0.486891, y: 0.01558566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6976befc021f36045b69cfb1c41e2b37
+      internalID: -293483973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 811
+        width: 284
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c26d4e6000cec4b9b921ea86ddd783
+      internalID: 1300753356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 816
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acfdea2aa3cd434dba043ef938ef7c4
+      internalID: -1836294174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_15
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 831
+        width: 191
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dde5b7b83a72e94e826d20b9dc5f41a
+      internalID: 695500848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_16
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 837
+        width: 169
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d6e6720b49ea49995e69b110d0d9d
+      internalID: 195439504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_17
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 842
+        width: 107
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab04c598f2265046a4fcdb1ccc30240
+      internalID: -1255025454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_18
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 837
+        width: 216
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ceb7c395f8ae54986c2663d2f845f6
+      internalID: 1847843633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_19
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 843
+        width: 149
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00592180609931489f39347694db328
+      internalID: 308390725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_20
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 833
+        width: 115
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05515e8fd002414cada7bf56e14bc43
+      internalID: -2067766793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_21
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 758
+        width: 150
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9a55f7f6f59624e8352136b000e674
+      internalID: -810610170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_22
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 967
+        width: 106
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033ef46c715c55741abf2228ecdaaad0
+      internalID: -1942516324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_23
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 817
+        width: 112
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d92373f59fb8d42a6099ac64606dd4
+      internalID: 1939361319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_24
+      rect:
+        serializedVersion: 2
+        x: 2231
+        y: 960
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f9b8747fa9c9a45b890425488d1d71
+      internalID: -597591245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_25
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 822
+        width: 95
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb970bb86a8e0a418f39ab6b48d30ba
+      internalID: -1690568672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_26
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 549
+        width: 116
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a892b9e2ae68783479b3a52ceb53fa3f
+      internalID: 707418093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_27
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 616
+        width: 212
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440a4956faeaf9b4c8c92a079affdff6
+      internalID: -1362052898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_28
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 517
+        width: 167
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82f641b649a30e4abe4a9ea3c0f8527
+      internalID: 1108301259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_29
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 512
+        width: 167
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262bd5ac206e0049b51dfceea46992f
+      internalID: 2085419326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_30
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 516
+        width: 281
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7555c3a7ddcc34c80d51f66ddbad70
+      internalID: -916987818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_31
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 523
+        width: 101
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8643d07970dbb094381c64f722e42b95
+      internalID: -949126878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_32
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 528
+        width: 185
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35a5e3424224944a9658a78dd39c27c
+      internalID: 668213921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_33
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 541
+        width: 180
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b08a9c1b1c6a24381253343593e4b9
+      internalID: -1375252618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_34
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 548
+        width: 118
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d55a4431c7661d498352107c1e73051
+      internalID: -1703430121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_35
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 539
+        width: 129
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e2d708625959c458b818d6a1c265c2
+      internalID: -622584758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_36
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 546
+        width: 203
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701f39fdc3747344d87a037b34f987e1
+      internalID: 2084272253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_37
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 546
+        width: 74
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140e9892ba7db3344a788c59661481a4
+      internalID: -1510211228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_38
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 209
+        width: 256
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885237e52bdb8aa418a52a900be58b31
+      internalID: 1364140743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_39
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 211
+        width: 188
+        height: 245
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de9cbab54d1b1b4fae794ea8381d026
+      internalID: 1415278163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_40
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 210
+        width: 163
+        height: 236
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c85fcd16ccbf4888ba5952004c766
+      internalID: 1956607355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_41
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 210
+        width: 128
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64315172b9480a48a6caefd6372b1a0
+      internalID: -618945670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_42
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 203
+        width: 179
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6b7c789e53dad45a51853598ffb8f1
+      internalID: 1584881132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_43
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 203
+        width: 207
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4bbb0f68b40004f8ef8b257a9392b7
+      internalID: -1268755619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_44
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 207
+        width: 262
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2157d5817ea243f4e9625f93e74a460b
+      internalID: 550095797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_45
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 210
+        width: 143
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500f7c867d2ad9643b9eb08bdbf1b6fb
+      internalID: -1936850444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_46
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 214
+        width: 126
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf151c0b3b0551f47bf4d161d42856cb
+      internalID: -679770270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_47
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 208
+        width: 101
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b742d5958119b41ad6d2524ecdbb19
+      internalID: 726416523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_48
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 210
+        width: 140
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b09419c3f0552d41ab79000a4d22001
+      internalID: -1162232593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hjm-small_trees_sideview-alpha_49
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 247
+        width: 89
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9d4141894dbd540bcce148526f95f2
+      internalID: -1635493640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      hjm-small_trees_sideview-alpha_24: -597591245
+      hjm-small_trees_sideview-alpha_2: -840043386
+      hjm-small_trees_sideview-alpha_12: -293483973
+      hjm-small_trees_sideview-alpha_19: 308390725
+      hjm-small_trees_sideview-alpha_13: 1300753356
+      hjm-small_trees_sideview-alpha_28: 1108301259
+      hjm-small_trees_sideview-alpha_48: -1162232593
+      hjm-small_trees_sideview-alpha_0: 1989711622
+      hjm-small_trees_sideview-alpha_1: -1300996874
+      hjm-small_trees_sideview-alpha_46: -679770270
+      hjm-small_trees_sideview-alpha_23: 1939361319
+      hjm-small_trees_sideview-alpha_35: -622584758
+      hjm-small_trees_sideview-alpha_18: 1847843633
+      hjm-small_trees_sideview-alpha_10: 1268394333
+      hjm-small_trees_sideview-alpha_41: -618945670
+      hjm-small_trees_sideview-alpha_25: -1690568672
+      hjm-small_trees_sideview-alpha_45: -1936850444
+      hjm-small_trees_sideview-alpha_11: 873005889
+      hjm-small_trees_sideview-alpha_7: -1642617307
+      hjm-small_trees_sideview-alpha_34: -1703430121
+      hjm-small_trees_sideview-alpha_37: -1510211228
+      hjm-small_trees_sideview-alpha_26: 707418093
+      hjm-small_trees_sideview-alpha_4: -912383818
+      hjm-small_trees_sideview-alpha_3: -995317971
+      hjm-small_trees_sideview-alpha_8: 121039559
+      hjm-small_trees_sideview-alpha_49: -1635493640
+      hjm-small_trees_sideview-alpha_16: 195439504
+      hjm-small_trees_sideview-alpha_43: -1268755619
+      hjm-small_trees_sideview-alpha_5: -1799298561
+      hjm-small_trees_sideview-alpha_29: 2085419326
+      hjm-small_trees_sideview-alpha_20: -2067766793
+      hjm-small_trees_sideview-alpha_15: 695500848
+      hjm-small_trees_sideview-alpha_47: 726416523
+      hjm-small_trees_sideview-alpha_22: -1942516324
+      hjm-small_trees_sideview-alpha_33: -1375252618
+      hjm-small_trees_sideview-alpha_17: -1255025454
+      hjm-small_trees_sideview-alpha_30: -916987818
+      hjm-small_trees_sideview-alpha_38: 1364140743
+      hjm-small_trees_sideview-alpha_32: 668213921
+      hjm-small_trees_sideview-alpha_6: -1624843066
+      hjm-small_trees_sideview-alpha_44: 550095797
+      hjm-small_trees_sideview-alpha_9: -605821570
+      hjm-small_trees_sideview-alpha_36: 2084272253
+      hjm-small_trees_sideview-alpha_21: -810610170
+      hjm-small_trees_sideview-alpha_42: 1584881132
+      hjm-small_trees_sideview-alpha_31: -949126878
+      hjm-small_trees_sideview-alpha_40: 1956607355
+      hjm-small_trees_sideview-alpha_14: -1836294174
+      hjm-small_trees_sideview-alpha_39: 1415278163
+      hjm-small_trees_sideview-alpha_27: -1362052898
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
