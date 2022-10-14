@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class ElectricTrap : MonoBehaviour
 {
-    private bool isHit = false;
-    public static bool triggerDownParticles = false;
+    public static bool isHit;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.tag == "Player")
         {
             isHit = true;
-            StartCoroutine(WaitBeforeReducingTime(0.01f));
         }
     }
 
@@ -24,27 +22,11 @@ public class ElectricTrap : MonoBehaviour
         }
     }
 
-    IEnumerator WaitBeforeReducingTime(float time)
+    private void FixedUpdate()
     {
-        int i;
-        for (i = 0; i < Mathf.Infinity; i++)
+        if (isHit == true)
         {
-            if (Timer.currentTime == 0)
-            {
-                yield return null;
-            }
-
-            if (isHit == true)
-            {
-                triggerDownParticles = true;
-                Timer.currentTime = Mathf.Clamp(Timer.currentTime - 0.1f, 0, 100);
-                yield return new WaitForSeconds(time);
-            }
-            else
-            {
-                triggerDownParticles = false;
-                yield return null;
-            }
+            Timer.currentTime = Mathf.Clamp(Timer.currentTime - 0.3f, 0, Timer.startingTime);
         }
     }
 }

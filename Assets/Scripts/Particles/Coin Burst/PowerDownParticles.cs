@@ -4,25 +4,25 @@ using UnityEngine;
 
 public class PowerDownParticles : MonoBehaviour
 {
-    private ParticleSystem powerDownBurst;
+    private ParticleSystem powerDown;
 
     void Awake()
     {
-        powerDownBurst = gameObject.GetComponent<ParticleSystem>();
-        powerDownBurst.Stop();
+        powerDown = gameObject.GetComponent<ParticleSystem>();
+        powerDown.Stop();
     }
 
     void Start()
     {
-        powerDownBurst = gameObject.GetComponent<ParticleSystem>();
+        powerDown = gameObject.GetComponent<ParticleSystem>();
     }
 
     private void Update()
     {
-        if (ElectricTrap.triggerDownParticles == true || MeleeEnemy.triggerPowerDownParticles == true)
+        if (MeleeEnemy.triggerPowerDownParticles == true || ElectricTrap.isHit == true)
         {
             MeleeEnemy.triggerPowerDownParticles = false;
-            powerDownBurst.Play();
+            powerDown.Play();
         }
     }
 }

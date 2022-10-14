@@ -19,7 +19,7 @@ public class CoinParticleBurst : MonoBehaviour
 
     private void Update()
     {
-        if (CoinPicker.triggerParticles)
+        if (CoinPicker.triggerParticles == true || RechargeTree.isHit == true)
         {
             CoinPicker.triggerParticles = false;
             powerUpBurst.Play();
