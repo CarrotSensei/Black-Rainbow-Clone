@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class CoinParticleBurst : MonoBehaviour
 {
-    private ParticleSystem coinBurst;
+    private ParticleSystem powerUpBurst;
 
     void Awake()
     {
-        coinBurst = gameObject.GetComponent<ParticleSystem>();
-        coinBurst.Stop();
+        powerUpBurst = gameObject.GetComponent<ParticleSystem>();
+        powerUpBurst.Stop();
     }
 
     void Start()
     {
-        coinBurst = gameObject.GetComponent<ParticleSystem>();
+        powerUpBurst = gameObject.GetComponent<ParticleSystem>();
     }
 
     private void Update()
@@ -22,7 +22,7 @@ public class CoinParticleBurst : MonoBehaviour
         if (CoinPicker.triggerParticles)
         {
             CoinPicker.triggerParticles = false;
-            coinBurst.Play();
+            powerUpBurst.Play();
         }
     }
 }

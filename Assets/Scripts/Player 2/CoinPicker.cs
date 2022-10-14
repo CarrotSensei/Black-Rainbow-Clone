@@ -46,7 +46,6 @@ public class CoinPicker : MonoBehaviour
     IEnumerator TimeIncrease()
     {
         int i = 0;
-        //play particle effect when time is increased
         for (i = 0; i < 10; i++)
         {
             Timer.currentTime = Mathf.Clamp(Timer.currentTime + (increaseTime / 10), 0, Timer.startingTime);

@@ -29,6 +29,8 @@ public class MeleeEnemy : MonoBehaviour
     private float volume;
     private float pitch;
 
+    public static bool triggerPowerDownParticles = false;
+
     private CMShake cm;
     private void Start()
     {
@@ -89,6 +91,7 @@ public class MeleeEnemy : MonoBehaviour
         if (PlayerInsight())
         {
             //Timer.currentTime = Timer.currentTime - 1f;
+            triggerPowerDownParticles = true;
             StartCoroutine(TimeDecrease());
             PlayerHitSound();
             int rand = Random.Range(1, 4);

@@ -13,6 +13,7 @@ TagManager:
   - ScreenShake
   - VScreenShake
   - Ground
+  - Electric Trap
   layers:
   - Default
   - TransparentFX
@@ -83,6 +84,9 @@ TagManager:
   - name: NPC
     uniqueID: 2515518503
     locked: 0
+  - name: Particles X
+    uniqueID: 1295874481
+    locked: 0
   - name: Background White
     uniqueID: 1784632137
     locked: 0
@@ -97,9 +101,6 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 313162555
-    locked: 0
-  - name: Particles X
-    uniqueID: 1295874481
     locked: 0
   - name: Particles V
     uniqueID: 2764931221
