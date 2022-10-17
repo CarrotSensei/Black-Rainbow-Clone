@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ElectricTrap : MonoBehaviour
 {
+    [SerializeField] private CMShake shakeCam;
     public static bool isHit;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -24,9 +25,10 @@ public class ElectricTrap : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isHit == true)
+        if (isHit == true && Timer.currentTime !=0)
         {
             Timer.currentTime = Mathf.Clamp(Timer.currentTime - 0.3f, 0, Timer.startingTime);
+            shakeCam.CamShakeZoom();
         }
     }
 }
