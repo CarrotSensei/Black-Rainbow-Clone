@@ -5,6 +5,7 @@ using UnityEngine;
 public class RechargeTree : MonoBehaviour
 {
     [SerializeField] private float startingPower = 200f;
+    [SerializeField] private float secondsToRechargeTree = 60f;
     public static float startingPower1;
     public static bool isHit;
     public static float powerRemaining;
@@ -13,6 +14,7 @@ public class RechargeTree : MonoBehaviour
     {
         startingPower1 = startingPower;
         powerRemaining = startingPower;
+        StartCoroutine(RegenPower(secondsToRechargeTree / startingPower / 2));
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -39,5 +41,15 @@ public class RechargeTree : MonoBehaviour
             Timer.currentTime = Mathf.Clamp(Timer.currentTime + 0.5f, 0, Timer.startingTime);
             powerRemaining = Mathf.Clamp(powerRemaining - 0.5f, 0, startingPower);
         }
+    }
+
+    private IEnumerator RegenPower(float time)
+    {
+        for (int i = 0; i < Mathf.Infinity; i++)
+        {
+            powerRemaining = Mathf.Clamp(powerRemaining + 0.5f, 0, startingPower);
+            yield return new WaitForSeconds(time);
+        }
+
     }
 }

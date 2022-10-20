@@ -6155,7 +6155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &183037053
 Transform:
   m_ObjectHideFlags: 0
@@ -6288,9 +6288,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 221283880}
+  - component: {fileID: 221283882}
   - component: {fileID: 221283879}
   - component: {fileID: 221283881}
-  - component: {fileID: 221283882}
   - component: {fileID: 221283883}
   m_Layer: 0
   m_Name: recharge tree
@@ -6407,7 +6407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c888bd3891c121f4588301dc09a8a2a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingPower: 200
+  startingPower: 100
+  secondsToRechargeTree: 60
 --- !u!114 &221283883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7157,7 +7158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &273886130
 Transform:
   m_ObjectHideFlags: 0
@@ -9680,7 +9681,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &619394801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21274,7 +21275,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -30141,7 +30142,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -47343,6 +47344,18 @@ PrefabInstance:
       value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.8
       objectReference: {fileID: 0}
@@ -47729,6 +47742,10 @@ PrefabInstance:
     - target: {fileID: 1962396186954607242, guid: ce83509c992cdaa4d92bd41e754b846b, type: 3}
       propertyPath: m_Name
       value: Camera Animations
+      objectReference: {fileID: 0}
+    - target: {fileID: 1962396186954607242, guid: ce83509c992cdaa4d92bd41e754b846b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce83509c992cdaa4d92bd41e754b846b, type: 3}
