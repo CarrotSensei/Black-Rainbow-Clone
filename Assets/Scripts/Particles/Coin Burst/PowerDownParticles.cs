@@ -19,7 +19,7 @@ public class PowerDownParticles : MonoBehaviour
 
     private void Update()
     {
-        if (MeleeEnemy.triggerPowerDownParticles == true || ElectricTrap.isHit == true)
+        if (MeleeEnemy.triggerPowerDownParticles == true)
         {
             MeleeEnemy.triggerPowerDownParticles = false;
             powerDown.Play();

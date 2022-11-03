@@ -46,11 +46,11 @@ public class PlayerAnimations : MonoBehaviour
     {
         //flip player
         horizontalInput = Input.GetAxis("Horizontal");
-        if(horizontalInput > 0.01f && facingRight)
+        if(horizontalInput > 0.01f && facingRight && canAttack == true)
         {
             Flip();
         }
-        else if (horizontalInput < -0.01f && !facingRight)
+        else if (horizontalInput < -0.01f && !facingRight && canAttack == true)
         {
             Flip();
         }

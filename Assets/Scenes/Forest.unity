@@ -266,7 +266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &237505276
 Transform:
   m_ObjectHideFlags: 0
@@ -578,7 +578,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -616726983
-  m_SortingLayer: -6
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -834,7 +834,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 313162555
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -1176,7 +1176,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 313162555
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: -5
   m_RenderMode: 0
   m_MeshDistribution: 0
@@ -7360,19 +7360,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 330.1
+      value: 326.5527
       objectReference: {fileID: 0}
     - target: {fileID: 483516065983962956, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.4540005
+      value: -11.482401
       objectReference: {fileID: 0}
     - target: {fileID: 483516066389828372, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 330.1
+      value: 326.5527
       objectReference: {fileID: 0}
     - target: {fileID: 483516066389828372, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.4540005
+      value: -11.482401
       objectReference: {fileID: 0}
     - target: {fileID: 483516066389828379, guid: 16396b116a0844f4b90723d91eb43429, type: 3}
       propertyPath: m_Follow
@@ -7526,7 +7526,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -616726983
-  m_SortingLayer: -6
+  m_SortingLayer: -5
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7642,8 +7642,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bbf1fd81f3aa7f43a43cd7e25ad457d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  typingSpeed: 0.04
+  loadGlobalsJSON: {fileID: 0}
   dialoguePanel: {fileID: 757692472}
+  defaultAudioInfo: {fileID: 0}
+  audioInfos: []
+  makePredictable: 0
+  continueIcon: {fileID: 0}
   dialogueText: {fileID: 1313568776}
+  displayNameText: {fileID: 0}
+  portraitAnimator: {fileID: 0}
   choices:
   - {fileID: 1487697005}
   - {fileID: 927689223}
@@ -8006,7 +8014,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 313162555
-  m_SortingLayer: -3
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
