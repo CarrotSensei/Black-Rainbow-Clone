@@ -1,5 +1,5 @@
 VAR myName = "Carrot"
-#audio:big_guy
+#audio:big_guy #speaker:big guy #portrait:big_guy_right
 ->main1
 ->main2
 
@@ -14,7 +14,7 @@ Hello there small guy. May I procure what you name is?
 -> END
 
 === main2 ===
-Well then mr {myName}. How may I be of assistance to you?
+Well then mr {myName}. How may I be of assistance to you? #portrait:big_guy_left
     + [I am looking for clues to escape this place?]
         Clues you say....?
         Hmmmmmm....
@@ -27,7 +27,7 @@ Well then mr {myName}. How may I be of assistance to you?
 
 
 === main3 ===
-Well then mr {myName}. How may I be of assistance to you?
+Well then mr {myName}. How may I be of assistance to you? #portrait:big_guy_right
     +[I am looking for clues to escape this place?]
         Clues huh
         Well I may know of a way.

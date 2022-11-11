@@ -5772,7 +5772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &183037053
 Transform:
   m_ObjectHideFlags: 0
@@ -6526,7 +6526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &273886130
 Transform:
   m_ObjectHideFlags: 0
@@ -7794,7 +7794,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 72909fb57f9993b4ea4fa6653df83e1b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -7946,7 +7946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &619394801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39875,6 +39875,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 6.299988
       objectReference: {fileID: 0}
+    - target: {fileID: 7352505477402344733, guid: 9b8e36fef8eafbd4f88ad213071ccd1b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 02922e0c03fcff840b06cd3aae0ff473, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b8e36fef8eafbd4f88ad213071ccd1b, type: 3}
 --- !u!1001 &2722293126624902836
@@ -40214,10 +40218,6 @@ PrefabInstance:
     - target: {fileID: 3522420274073295691, guid: 4588726215a576a4db55a598d54eb666, type: 3}
       propertyPath: m_Offset.y
       value: 0.6496093
-      objectReference: {fileID: 0}
-    - target: {fileID: 5397553975540282296, guid: 4588726215a576a4db55a598d54eb666, type: 3}
-      propertyPath: m_CollisionDetection
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6491184670530589793, guid: 4588726215a576a4db55a598d54eb666, type: 3}
       propertyPath: m_RootOrder
