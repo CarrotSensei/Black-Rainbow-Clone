@@ -7,6 +7,7 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] private float health;
     [SerializeField] private GameObject enemyPatrol;
     [SerializeField] private GameObject bloodSpatterParticleEffect;
+    [SerializeField] private GameObject bloodSpatterParticleEffect2;
     [Header("Sounds")]
     [SerializeField] private string deathSound;
     [SerializeField] private string hurtSound;
@@ -40,6 +41,7 @@ public class EnemyHealth : MonoBehaviour
             EnemyDeathSound();
             Instantiate(bloodSpatterParticleEffect, transform.position, Quaternion.identity);
             timeIncrease.IncreaseTime();
+            Timer2.triggerFadeOut = true;
             cm.CamShakeZoom();
             Destroy(gameObject);
             Destroy(enemyPatrol);
@@ -52,6 +54,7 @@ public class EnemyHealth : MonoBehaviour
         if (health >= 1)
         {
             EnemyHurtSound();
+            Instantiate(bloodSpatterParticleEffect2, transform.position, Quaternion.identity);
         }
     }
 

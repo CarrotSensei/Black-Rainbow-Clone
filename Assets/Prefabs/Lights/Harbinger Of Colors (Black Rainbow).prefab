@@ -249,14 +249,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c93103285ce8254caffd205d7c1d9ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  expandScale: {fileID: 2148462826053459425}
-  expandLightRange: {fileID: 2148462826771553330}
-  expandParticleRadius: {fileID: 8891127670265149960}
-  expandScale1: {fileID: 5397404430518415070}
-  shrinkScale: {fileID: 2148462826053459425}
-  shrinkLightRange: {fileID: 2148462826771553330}
-  shrinkParticleRadius: {fileID: 8891127670265149960}
-  shrinkScale1: {fileID: 5397404430518415070}
+  changeScale: {fileID: 2148462826053459425}
+  changeLightRange: {fileID: 2148462826771553330}
+  changeParticleRadius: {fileID: 8891127670265149960}
+  changeScale1: {fileID: 5397404430518415070}
 --- !u!1 &2148462826771553329
 GameObject:
   m_ObjectHideFlags: 0

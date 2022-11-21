@@ -4,32 +4,27 @@ using UnityEngine;
 
 public class HarbingerOfColorsManager : MonoBehaviour
 {
-    [SerializeField] private ChangeScale expandScale;
-    [SerializeField] private ChangeLightRange expandLightRange;
-    [SerializeField] private ChangeParticleRadius expandParticleRadius;
-    [SerializeField] private NPCDetector expandScale1;
-
-    [SerializeField] private ChangeScale shrinkScale;
-    [SerializeField] private ChangeLightRange shrinkLightRange;
-    [SerializeField] private ChangeParticleRadius shrinkParticleRadius;
-    [SerializeField] private NPCDetector shrinkScale1;
+    [SerializeField] private ChangeScale changeScale;
+    [SerializeField] private ChangeLightRange changeLightRange;
+    [SerializeField] private ChangeParticleRadius changeParticleRadius;
+    [SerializeField] private NPCDetector changeScale1;
 
 
     private void FixedUpdate()
     {
         if (Input.GetKey("e") && Timer.timeIsZero == false)
         {
-            expandScale.ExpandScale();
-            expandLightRange.ExpandLightRange();
-            expandParticleRadius.ExpandParticleRadius();
-            expandScale1.ExpandScale();
+            changeScale.ExpandScale();
+            changeLightRange.ExpandLightRange();
+            changeParticleRadius.ExpandParticleRadius();
+            changeScale1.ExpandScale();
         }
         if (Input.GetKey("q") && Timer.timeIsZero == false)
         {
-            shrinkScale.ShrinkScale();
-            shrinkLightRange.ShrinkLightRange();
-            shrinkParticleRadius.ShrinkParticleRadius();
-            shrinkScale1.ShrinkScale();
+            changeScale.ShrinkScale();
+            changeLightRange.ShrinkLightRange();
+            changeParticleRadius.ShrinkParticleRadius();
+            changeScale1.ShrinkScale();
         }
     }
 }

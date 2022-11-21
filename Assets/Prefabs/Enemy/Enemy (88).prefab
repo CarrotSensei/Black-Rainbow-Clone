@@ -310,8 +310,10 @@ MonoBehaviour:
   health: 3
   enemyPatrol: {fileID: 0}
   bloodSpatterParticleEffect: {fileID: 7384316543512571201, guid: ac682cc3ee7bcf94e9ca868d146533d6, type: 3}
-  deathSound: 
-  hurtSound: 
+  bloodSpatterParticleEffect2: {fileID: 100000, guid: bc98890f6028f444eaa7789bde5e2eeb, type: 3}
+  deathSound: 88Death
+  hurtSound: 88Hurt
+  timeIncrease: {fileID: 0}
 --- !u!1 &725861631427223588
 GameObject:
   m_ObjectHideFlags: 0

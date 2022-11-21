@@ -44,7 +44,7 @@ public class Timer2 : MonoBehaviour
             uiText.text = $"{remainingDuration / 60:00} : {remainingDuration % 60:00}";
             uiFill.fillAmount = Mathf.InverseLerp(0, startingDuration, remainingDuration);
             remainingDuration = Mathf.Clamp(Timer.currentTime, 0, startingDuration);
-            if (remainingDuration == 0 && playsSong == false && songFinished == false)
+            if (Timer.currentTime == 0 && playsSong == false && songFinished == false)
             {
                 StartCoroutine(WaitBeforeSongEnds(120));
                 cm.CamFocusOut1();
@@ -72,8 +72,11 @@ public class Timer2 : MonoBehaviour
         BackgroundMusicManager.triggerFadeOut = true;
         playsSong = true;
         m_MyAudioSource.Play();
-        yield return new WaitForSeconds(time);
-        Debug.Log("kill player");
+        yield return new WaitForSeconds(time); 
+        if (Timer.currentTime == 0)
+        {
+            Debug.Log("kill player");
+        }
         songFinished = true;
         playsSong = false;
     }       
